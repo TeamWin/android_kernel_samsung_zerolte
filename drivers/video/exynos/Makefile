@@ -10,4 +10,8 @@ obj-$(CONFIG_EXYNOS_DECON_DISPLAY)	+= decon_display/
 obj-$(CONFIG_EXYNOS_DECON_TV_DISPLAY)	+= decon_tv_display/
 obj-y					+= panels/
 obj-$(CONFIG_EXYNOS_DECON)		+= decon/
+<<<<<<< HEAD
 obj-$(CONFIG_EXYNOS_DECON_EXYNOS7580)	+= decon_7580/
+=======
+obj-$(CONFIG_EXYNOS_DECON_EXYNOS7580)	+= decon_7580/
+>>>>>>> 3926c5c... Push COF6 G920T source
