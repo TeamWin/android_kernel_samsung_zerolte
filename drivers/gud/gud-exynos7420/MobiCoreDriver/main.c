@@ -1589,12 +1589,9 @@ static int __init mobicore_init(void)
 	/* init lock for the buffers list */
 	mutex_init(&ctx.bufs_lock);
 
-<<<<<<< HEAD
 	/* init lock for core switch processing */
 	mutex_init(&ctx.core_switch_lock);
 
-=======
->>>>>>> 3926c5c... Push COF6 G920T source
 	memset(&ctx.mci_base, 0, sizeof(ctx.mci_base));
 	MCDRV_DBG(mcd, "initialized");
 	return 0;

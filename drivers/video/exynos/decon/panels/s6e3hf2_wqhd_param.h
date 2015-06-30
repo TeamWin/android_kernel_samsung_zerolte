@@ -198,23 +198,11 @@ static const unsigned char SEQ_PENTILE_SETTING[] = {
 };
 
 static const unsigned char SEQ_POC_SETTING1[] = {
-<<<<<<< HEAD
-=======
-	0xC3,
-	0xC0, 0x00, 0x33
-};
-
-static const unsigned char SEQ_POC_SETTING2[] = {
->>>>>>> 3926c5c... Push COF6 G920T source
 	0xB0,
 	0x20
 };
 
-<<<<<<< HEAD
 static const unsigned char SEQ_POC_SETTING2[] = {
-=======
-static const unsigned char SEQ_POC_SETTING3[] = {
->>>>>>> 3926c5c... Push COF6 G920T source
 	0xFE,
 	0x04
 };

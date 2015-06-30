@@ -190,9 +190,6 @@ out:
 	free_page((unsigned long) page);
 	return length;
 }
-#else
-#define sel_write_enforce NULL
-#endif
 
 static const struct file_operations sel_enforce_ops = {
 	.read		= sel_read_enforce,
